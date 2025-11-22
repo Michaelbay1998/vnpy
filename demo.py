@@ -477,7 +477,7 @@ class RealTradingStrategy(CtaTemplate):
     ma_window = 20
 
     parameters = ["ma_window"]
-    variables = []
+    variables =[]
 
     def __init__(self, cta_engine, strategy_name, vt_symbol, setting):
         super().__init__(cta_engine, strategy_name, vt_symbol, setting)
